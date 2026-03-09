@@ -2,6 +2,6 @@
 poorly written version of touch
 # Usage 
 mytouch (filename) 
-# Ex
+# Example
 mytouch test.txt
 test.txt was created
