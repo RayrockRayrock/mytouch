@@ -4,4 +4,5 @@ poorly written version of touch
 mytouch (filename) 
 # Example
 mytouch test.txt
+
 test.txt was created
