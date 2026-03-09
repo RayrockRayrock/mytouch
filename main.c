@@ -14,7 +14,13 @@ int main(int argc, char ** argv)
   {
     for (int i = 0 ; i < argc - 1; i++)
     {
-        fopen(*(argv + i + 1),"a");
+        FILE * a = fopen(*(argv + i + 1),"a");
+        if (a == NULL)
+        {
+          perror("failed to create");
+          return 1;
+        }
+
 
         printf("%s was created\n", argv[i + 1]);
 
